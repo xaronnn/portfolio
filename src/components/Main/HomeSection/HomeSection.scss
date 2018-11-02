@@ -10,11 +10,10 @@
   .backgroundContainer {
     height: 100vh;
     width: 100vw;
-    background-image: url(./landing-shape.svg);
-    background-position: bottom;
+    background: linear-gradient(to bottom, #FFF 1%, #10ffc0);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    background-position: 0 0;
   }
 
   .content {
@@ -30,7 +29,7 @@
   .imgMe {
     width: 200px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid #77ffdf;
   }
 
   .name {
@@ -40,6 +39,12 @@
   }
 
   .position {
-    color: #797979;
+    color: #5f5f5f;
+    font-weight: normal;
+  }
+
+  .mediumLink {
+    color: #ff7b91;
+    padding: 10px;
   }
 }
