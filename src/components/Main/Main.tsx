@@ -1,4 +1,6 @@
 import * as React from 'react';
+import PersonaliaSection from "./PersonaliaSection/PersonaliaSection";
+import LandingSection from "./LandingSection/LandingSection";
 const classnames = require('./Main.scss');
 
 interface IProps {}
@@ -10,7 +12,8 @@ class Main extends React.Component<IProps, IState> {
   public render() {
     return (
       <div className={classnames.root}>
-        content
+        <LandingSection/>
+        <PersonaliaSection/>
       </div>
     );
   }
