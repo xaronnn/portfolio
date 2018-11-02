@@ -1,0 +1,21 @@
+:local {
+  .root {
+    height: 44px;
+    background: rgba(20, 20, 20, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navList {
+    list-style-type: none;
+  }
+
+  .navItem {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-size: 14px;
+  }
+}
