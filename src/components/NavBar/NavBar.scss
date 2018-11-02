@@ -1,10 +1,12 @@
 :local {
   .root {
     height: 44px;
-    background: rgba(20, 20, 20, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    width: 100vw;
   }
 
   .navList {
