@@ -1,9 +1,9 @@
 import * as React from 'react';
-const classnames = require('./LandingSection.scss');
+const classnames = require('./HomeSection.scss');
 
 interface IProps {}
 
-class LandingSection extends React.Component<IProps> {
+class HomeSection extends React.Component<IProps> {
   public render() {
     return (
       <section className={classnames.root}>
@@ -13,11 +13,12 @@ class LandingSection extends React.Component<IProps> {
             className={classnames.imgMe}
             src="/assets/img/me.jpg"
           />
-          <h2>Dennis Kievits</h2>
+          <h1 className={classnames.name}>Dennis Kievits</h1>
+          <h4 className={classnames.position}>Software Engineer & Entrepeneur</h4>
         </div>
       </section>
     );
   }
 };
 
-export default LandingSection;
+export default HomeSection;

@@ -8,8 +8,7 @@ interface INavItem {
 }
 
 const navItems: INavItem[] = [
-  { content: 'Landing' },
-  { content: 'Personalia' },
+  { content: 'Home' },
   { content: 'Projects' },
   { content: 'Contact' }
 ];
