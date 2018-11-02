@@ -10,6 +10,7 @@ import {
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 const classnames = require('./HomeSection.scss');
+const meImg = require('./me.jpg');
 
 interface IProps {
 }
@@ -33,7 +34,7 @@ class HomeSection extends React.Component<IProps> {
         <div className={classnames.content}>
           <img
             className={classnames.imgMe}
-            src="/assets/img/me.jpg"
+            src={meImg}
           />
           <h1 className={classnames.name}>Dennis Kievits</h1>
           <h4 className={classnames.position}>Software Engineer & Entrepeneur</h4>
