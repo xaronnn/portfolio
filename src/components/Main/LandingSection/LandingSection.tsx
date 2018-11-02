@@ -7,7 +7,13 @@ class LandingSection extends React.Component<IProps> {
   public render() {
     return (
       <section className={classnames.root}>
-        <h2>Dennis Kievits</h2>
+        <div className={classnames.content}>
+          <img
+            className={classnames.imgMe}
+            src="/assets/img/me.jpg"
+          />
+          <h2>Dennis Kievits</h2>
+        </div>
       </section>
     );
   }

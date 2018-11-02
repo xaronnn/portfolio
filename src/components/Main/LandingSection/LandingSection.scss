@@ -1,5 +1,19 @@
 :local {
   .root {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgMe {
+    width: 200px;
+    border-radius: 50%;
   }
 }
