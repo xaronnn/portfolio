@@ -10,7 +10,7 @@ import {
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 const classnames = require('./HomeSection.scss');
-const meImg = require('./me-transparent.png');
+const meImg = require('./me.jpg');
 
 interface IProps {
 }
@@ -38,7 +38,7 @@ class HomeSection extends React.Component<IProps> {
           />
           <h1 className={classnames.name}>Dennis Kievits</h1>
           <h4 className={classnames.position}>Software Engineer & Entrepeneur</h4>
-          <h5 className={classnames.bio}>~/ $ ZSH, VI, and Unix enthusiast</h5>
+          <code className={classnames.bio}>~ $ "(ohmy)zsh" | unix --enthusiast && nvim</code>
           <div>
             {media.map((medium, i) =>
               <a

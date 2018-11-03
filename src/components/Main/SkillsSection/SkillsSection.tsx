@@ -25,8 +25,9 @@ class SkillsSection extends React.Component<IProps> {
                       <li>C#</li>
                       <li>Javascript</li>
                       <li>Typescript</li>
-                      <li>HTML</li>
-                      <li>CSS (SASS)</li>
+                      <li>HTML(5)</li>
+                      <li>CSS(3)</li>
+                      <li>SASS</li>
                       <li>Python</li>
                       <li>Rust</li>
                       <li>Dart</li>

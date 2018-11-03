@@ -42,15 +42,24 @@
   }
 
   .position {
-    color: #404040;
+    color: $red-hint-color; //#404040;
     font-weight: normal;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
   }
 
   .bio {
     color: #636363;
     font-weight: bold;
-    color: $red-hint-color;
+    color: $white-text-color;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 
