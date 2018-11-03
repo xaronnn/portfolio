@@ -1,0 +1,51 @@
+@import '../../../index';
+
+:local {
+  .root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .backgroundContainer {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #FFF 10%, #10ffc0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .content {
+    position: relative;
+    top: -100vh;
+    margin-bottom: -100vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgMe {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #77ffdf;
+  }
+
+  .name {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 31px;
+  }
+
+  .position {
+    color: #404040;
+    font-weight: normal;
+  }
+
+  .mediumLink {
+    color: $red-hint-color;
+    padding: 10px;
+  }
+}

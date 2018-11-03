@@ -2,11 +2,12 @@
   .root {
     display: flex;
     justify-content: center;
-    background: #222222;
-    color: white;
   }
 
   .content {
-    height: 300px;
+    width: 100%;
+    max-width: 1380px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
