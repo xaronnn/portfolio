@@ -1,10 +1,11 @@
 :local {
   .root {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .container {
     width: 100%;
-    margin-top: 100px;
     min-height: 500px;
   }
 
@@ -26,5 +27,20 @@
     flex: 1;
     min-width: 300px;
     margin: 20px;
+  }
+
+  .gridItem > h4 {
+    text-align: center;
+  }
+
+  .gridItemList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textBlock {
+    text-align: center;
   }
 }

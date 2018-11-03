@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    min-height: 500px;
   }
 
   .backgroundContainer {
@@ -42,6 +43,14 @@
   .position {
     color: #404040;
     font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  .bio {
+    color: #636363;
+    font-weight: bold;
+    color: $red-hint-color;
+    margin-bottom: 20px;
   }
 
   .mediumLink {
