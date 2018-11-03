@@ -117,12 +117,28 @@ class SkillsSection extends React.Component<IProps> {
                 className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span
                 className="bold">Containerization</span>.
               </p>
+
+              <p className={classnames.textBlock}>
+                Experience with Continious Integration (CI) / Continious Delivery (CD) services such as <span
+                className="bold">Travis CI</span>, and <span className="bold">Circle CI</span>.
+              </p>
             </div>
 
             <h3 className={classnames.textBlockHeading}>Teamwork</h3>
             <div>
               <p className={classnames.textBlock}>
                 Experience working as a team using methodologies such as <span className="bold">Agile (Scrum)</span>, and <span className="bold">Waterfall</span>.
+              </p>
+            </div>
+
+            <h3 className={classnames.textBlockHeading}>Future Goals</h3>
+            <div>
+              <p className={classnames.textBlock}>
+                I'm really excited about <span className="bold">Machine Learning</span>, because of the new possibilities it unlocks for the application of software on more abstract use cases.
+              </p>
+
+              <p className={classnames.textBlock}>
+                I'm currently researching / studying one of the more popular libaries from Google, <span className="bold">Tensorflow</span>, and I'd love to develop something new using this technology.
               </p>
             </div>
           </>
