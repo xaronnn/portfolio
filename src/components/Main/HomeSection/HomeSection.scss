@@ -1,16 +1,17 @@
 @import '../../../index';
 
 :local {
+  $height: 100vh;
+
   .root {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    min-height: 500px;
+    height: $height;
   }
 
   .backgroundContainer {
-    height: 100vh;
+    height: $height;
     width: 100vw;
     background: linear-gradient(to bottom, #FFF 10%, #10ffc0);
     background-size: cover;
@@ -20,9 +21,9 @@
 
   .content {
     position: relative;
-    top: -100vh;
-    margin-bottom: -100vh;
-    margin-top: 100px;
+    top: -$height;
+    margin-bottom: -$height;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;

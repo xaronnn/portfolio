@@ -1,0 +1,42 @@
+@import '../../index';
+
+:local {
+  .root {
+    position: sticky;
+    top: 0;
+    z-index: 1337;
+    background: rgba(255, 255, 255, 0.95);
+  }
+
+  .menuIcon {
+    margin: 15px;
+    margin-left: 25px;
+  }
+
+  .menuIcon:hover {
+    cursor: pointer;
+  }
+
+  .menuContainer {
+    position: sticky;
+    top: 62px;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1338;
+    margin-bottom: -134px;
+  }
+
+  .menuContainerHidden {
+    display: none;
+  }
+
+  .navItem {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #a1a1a1;
+    cursor: pointer;
+  }
+
+  .navItemSelected {
+    color: $red-hint-color;
+  }
+}

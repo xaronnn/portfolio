@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,52 +36,70 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="1" />
-          <entry key="scss" value="60" />
+          <entry key="scss" value="64" />
           <entry key="svg" value="2" />
           <entry key="ts" value="1" />
-          <entry key="tsx" value="35" />
+          <entry key="tsx" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="SCSS" value="60" />
+          <entry key="SCSS" value="64" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="1" />
-          <entry key="TypeScript JSX" value="35" />
+          <entry key="TypeScript JSX" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="42" />
           <entry key="html" value="24" />
-          <entry key="scss" value="3361" />
+          <entry key="scss" value="4061" />
           <entry key="svg" value="1" />
-          <entry key="tsx" value="6432" />
+          <entry key="tsx" value="7338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="42" />
           <entry key="HTML" value="24" />
-          <entry key="SCSS" value="3361" />
+          <entry key="SCSS" value="4061" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript JSX" value="6432" />
+          <entry key="TypeScript JSX" value="7338" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="135" column="200" selection-start-line="135" selection-start-column="200" selection-end-line="135" selection-end-column="200" />
+            <state relative-caret-position="564">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -114,16 +137,17 @@
         <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/Main.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx" />
-        <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" />
         <option value="$PROJECT_DIR$/src/components/layout/Container/Container.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.tsx" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" />
+        <option value="$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss" />
       </list>
     </option>
   </component>
@@ -273,7 +297,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Debug">
-    <configuration name="Debug JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:3000">
+    <configuration name="Debug JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="localhost:3000">
       <method v="2">
         <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="localhost:3000" withDebugger="true" />
       </method>
@@ -304,18 +328,18 @@
       <option name="presentableId" value="Default" />
       <updated>1541183132161</updated>
       <workItem from="1541183134985" duration="17259000" />
-      <workItem from="1541248645811" duration="7819000" />
+      <workItem from="1541248645811" duration="10762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25078000" />
+    <option name="totallyTimeSpent" value="28021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="2304" height="1272" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18134034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18134034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -330,7 +354,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2601695" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2601695" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -431,27 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -476,30 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -507,13 +490,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="135" column="200" selection-start-line="135" selection-start-column="200" selection-end-line="135" selection-end-column="200" />
+        <state relative-caret-position="562">
+          <caret line="142" column="17" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
