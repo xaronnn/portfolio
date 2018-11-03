@@ -10,7 +10,15 @@ class ProjectsSection extends React.Component<IProps> {
       <section className={classnames.root}>
         <Container>
           <div className={classnames.container}>
-            <h1 className={classnames.title}>Projects</h1>
+            <div className={classnames.title}>
+              <h1 className={classnames.title}>Projects</h1>
+            </div>
+            <div className={classnames.grid}>
+              <div className={classnames.gridItem}></div>
+              <div className={classnames.gridItem}></div>
+              <div className={classnames.gridItem}></div>
+              <div className={classnames.gridItem}></div>
+            </div>
           </div>
         </Container>
       </section>

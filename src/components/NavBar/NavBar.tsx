@@ -35,7 +35,7 @@ class NavBar extends React.Component<IProps, IState> {
   public render() {
     return (
       <>
-        <MediaQuery query={`(min-width: ${switchWidth}px)`}>
+        <MediaQuery query={`(min-width: ${switchWidth + 1}px)`}>
           <nav className={classnames.root}>
             <ul className={classnames.navList}>
               {navItems.map((navItem, i) => {
