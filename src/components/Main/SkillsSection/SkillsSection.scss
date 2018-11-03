@@ -10,5 +10,21 @@
 
   .title {
     font-size: 36px;
+    text-align: center;
+  }
+
+  .grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  .gridItem {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
   }
 }
