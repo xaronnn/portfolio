@@ -11,6 +11,7 @@ interface INavItem {
 
 const navItems: INavItem[] = [
   {content: 'Home'},
+  {content: 'Skills'},
   {content: 'Projects'},
   {content: 'Contact'}
 ];
