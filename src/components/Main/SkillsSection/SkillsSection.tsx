@@ -100,7 +100,7 @@ class SkillsSection extends React.Component<IProps> {
             </div>
 
             <p className={classnames.textBlock}>
-              Experience with working with <span className="bold">Windows</span>, <span className="bold">Linux</span>, and <span className="bold">MacOS</span>. But I do definitely prefer working on an unix based OS.
+              Experience with working with <span className="bold">Windows</span>, <span className="bold">Linux</span>, and <span className="bold">MacOS</span>. But I do prefer working on an unix based OS.
             </p>
 
             <p className={classnames.textBlock}>
@@ -108,7 +108,7 @@ class SkillsSection extends React.Component<IProps> {
             </p>
 
             <p className={classnames.textBlock}>
-              Experience with good software architecture design principles/setup such as <span className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span className="bold">Containerization</span>.
+              Experience with good software architecture design principles / orchestration such as <span className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span className="bold">Containerization</span>.
             </p>
           </>
         </Container>
