@@ -43,4 +43,13 @@
   .textBlock {
     text-align: center;
   }
+
+  .textBlock:last-child {
+    margin-bottom: 75px;
+  }
+
+  .textBlockHeading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }

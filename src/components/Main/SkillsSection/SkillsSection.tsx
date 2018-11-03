@@ -99,17 +99,32 @@ class SkillsSection extends React.Component<IProps> {
 
             </div>
 
-            <p className={classnames.textBlock}>
-              Experience with working with <span className="bold">Windows</span>, <span className="bold">Linux</span>, and <span className="bold">MacOS</span>. But I do prefer working on an unix based OS.
-            </p>
+            <h3 className={classnames.textBlockHeading}>Software</h3>
+            <div>
+              <p className={classnames.textBlock}>
+                Experience with working with <span className="bold">Windows</span>, <span className="bold">Linux</span>,
+                and <span className="bold">MacOS</span>. But I do prefer working on an unix based OS.
+              </p>
 
-            <p className={classnames.textBlock}>
-              Experience with cross-platform development targetting <span className="bold">Web</span>, <span className="bold">Windows</span>, <span className="bold">MacOS</span>, <span className="bold">iOS</span>, <span className="bold">Android</span>, and <span className="bold">Embedded Systems</span>.
-            </p>
+              <p className={classnames.textBlock}>
+                Experience with cross-platform development targetting <span className="bold">Web</span>, <span
+                className="bold">Windows</span>, <span className="bold">MacOS</span>, <span
+                className="bold">iOS</span>, <span className="bold">Android</span>, and <span className="bold">Embedded Systems</span>.
+              </p>
 
-            <p className={classnames.textBlock}>
-              Experience with good software architecture design principles / orchestration such as <span className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span className="bold">Containerization</span>.
-            </p>
+              <p className={classnames.textBlock}>
+                Experience with good software architecture design principles / orchestration such as <span
+                className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span
+                className="bold">Containerization</span>.
+              </p>
+            </div>
+
+            <h3 className={classnames.textBlockHeading}>Teamwork</h3>
+            <div>
+              <p className={classnames.textBlock}>
+                Experience working as a team using methodologies such as <span className="bold">Agile (Scrum)</span>, and <span className="bold">Waterfall</span>.
+              </p>
+            </div>
           </>
         </Container>
       </section>
