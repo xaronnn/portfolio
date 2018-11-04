@@ -7,6 +7,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMobile} from "@fortawesome/free-solid-svg-icons";
 import {faEnvelopeOpen} from "@fortawesome/free-regular-svg-icons";
 import {faDiscord, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import MapComponent from "./MapComponent";
 
 const classnames = require('./ContactSection.scss');
 
@@ -50,6 +51,9 @@ class ContactSection extends React.Component<IProps> {
                       </tr>
                       </tbody>
                     </table>
+                  </div>
+                  <div className={classnames.mapContainer}>
+                    <MapComponent/>
                   </div>
                 </div>
               </Container>

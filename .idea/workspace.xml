@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx" afterDir="false" />
     </list>
@@ -37,7 +39,7 @@
           <entry key="scss" value="72" />
           <entry key="svg" value="2" />
           <entry key="ts" value="2" />
-          <entry key="tsx" value="58" />
+          <entry key="tsx" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -47,36 +49,36 @@
           <entry key="SCSS" value="72" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="2" />
-          <entry key="TypeScript JSX" value="58" />
+          <entry key="TypeScript JSX" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="42" />
           <entry key="html" value="24" />
-          <entry key="scss" value="4912" />
+          <entry key="scss" value="4989" />
           <entry key="svg" value="1" />
-          <entry key="tsx" value="9591" />
+          <entry key="tsx" value="10124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="42" />
           <entry key="HTML" value="24" />
-          <entry key="SCSS" value="4912" />
+          <entry key="SCSS" value="4989" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript JSX" value="9591" />
+          <entry key="TypeScript JSX" value="10124" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="481">
+              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -84,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="627">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -98,10 +100,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TSX React SFC" />
         <option value="TSX React Class" />
         <option value="SCSS Component File" />
         <option value="TypeScript File" />
+        <option value="TSX React SFC" />
       </list>
     </option>
   </component>
@@ -139,8 +141,9 @@
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/ContactSection/MapComponent.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" />
       </list>
     </option>
   </component>
@@ -323,18 +326,18 @@
       <workItem from="1541183134985" duration="17259000" />
       <workItem from="1541248645811" duration="10762000" />
       <workItem from="1541267082929" duration="206000" />
-      <workItem from="1541280218199" duration="5531000" />
+      <workItem from="1541280218199" duration="7042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33758000" />
+    <option name="totallyTimeSpent" value="35269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2304" height="1273" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18134034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18134034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -349,7 +352,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2599492" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2599492" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -545,11 +541,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="481">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/MapComponent.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
         </state>
       </provider>
     </entry>
