@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Container from "../../layout/Container/Container";
 import {Subscribe} from "unstated";
 import NavigationContainer, {RouteName} from "../../../containers/NavigationContainer";
 import Waypoint from "react-waypoint";
@@ -21,11 +20,11 @@ class ContactSection extends React.Component<IProps> {
         {(navigation: NavigationContainer) => (
           <Waypoint fireOnRapidScroll onEnter={() => navigation.setRouteName(RouteName.Contact)}>
             <section className={classnames.root} id={RouteName.Contact}>
-              <Container>
-                <div className={classnames.container}>
-                  <div>
-                    <h1 className={classnames.title}>Contact</h1>
-                  </div>
+              <div className={classnames.container}>
+                <div>
+                  <h1 className={classnames.title}>Contact</h1>
+                </div>
+                <div className={classnames.grid}>
                   <div className={classnames.tableContainer}>
                     <table>
                       <tbody>
@@ -56,7 +55,7 @@ class ContactSection extends React.Component<IProps> {
                     <MapComponent/>
                   </div>
                 </div>
-              </Container>
+              </div>
             </section>
           </Waypoint>
         )}
