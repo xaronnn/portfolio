@@ -39,7 +39,7 @@ class SkillsSection extends React.Component<IProps> {
                               <li>Dart</li>
                               <li>Lua</li>
                               <li>Java</li>
-                              <li>C/C++</li>
+                              <li>C / C++</li>
                               <li>Swift</li>
                               <li>ASM (x86 and x86_64)</li>
                             </ul>
@@ -96,7 +96,7 @@ class SkillsSection extends React.Component<IProps> {
                               <li>Microsoft Office</li>
                               <li>Visual Studio</li>
                               <li>JetBrains IDEs</li>
-                              <li>IDA Dissasembler</li>
+                              <li>IDA Disassembler</li>
                               <li>Hopper</li>
                               <li>VCS (git)</li>
                             </ul>
