@@ -1,4 +1,5 @@
 @import '../../../index';
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 
 :local {
   $height: 100vh;
@@ -13,7 +14,8 @@
   .backgroundContainer {
     height: $height;
     width: 100vw;
-    background: linear-gradient(to bottom, #FFF 10%, #10ffc0);
+    //background: linear-gradient(to bottom, #FFF 10%, #10ffc0);
+    background: url(./background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -32,17 +34,18 @@
   .imgMe {
     width: 200px;
     border-radius: 50%;
-    border: 5px solid #77ffdf;
+    border: 5px solid #da4949;
   }
 
   .name {
     margin: 0;
     margin-top: 20px;
     font-size: 31px;
+    color: $white-text-color;
   }
 
   .position {
-    color: $red-hint-color; //#404040;
+    color: #f7d0d5; //#404040;
     font-weight: normal;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -54,17 +57,18 @@
     font-weight: bold;
     color: $white-text-color;
     background: rgba(0, 0, 0, 0.5);
-    font-size: 12px;
+    font-size: 13px;
     border-radius: 5px;
-    padding: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    font-family: "Fira Code", source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
   }
 
   .mediumLink {
-    color: $red-hint-color;
+    color: #f7d0d5;
     padding: 10px;
   }
 }
