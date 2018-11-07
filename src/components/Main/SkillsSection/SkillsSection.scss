@@ -40,6 +40,13 @@
     align-items: center;
   }
 
+  .centerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .textBlock {
     text-align: center;
   }

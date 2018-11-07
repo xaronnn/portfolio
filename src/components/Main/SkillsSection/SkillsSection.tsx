@@ -32,12 +32,13 @@ class SkillsSection extends React.Component<IProps> {
                               <li>Javascript</li>
                               <li>Typescript</li>
                               <li>HTML(5)</li>
-                              <li>CSS(3)</li>
-                              <li>SASS</li>
+                              <li>CSS(3) (SASS)</li>
+                              <li>SQL (MSSQL, MySQL, Postgres)</li>
                               <li>Python</li>
                               <li>Rust</li>
                               <li>Dart</li>
                               <li>Lua</li>
+                              <li>PHP</li>
                               <li>Java</li>
                               <li>C / C++</li>
                               <li>Swift</li>
@@ -63,7 +64,7 @@ class SkillsSection extends React.Component<IProps> {
                         </div>
 
                         <div className={classnames.gridItem}>
-                          <h4>Frameworks/Libaries</h4>
+                          <h4>Frameworks/Libraries</h4>
                           <div className={classnames.gridItemList}>
                             <ul>
                               <li>
@@ -94,8 +95,8 @@ class SkillsSection extends React.Component<IProps> {
                             <ul>
                               <li>Photoshop</li>
                               <li>Microsoft Office</li>
-                              <li>Visual Studio</li>
-                              <li>JetBrains IDEs</li>
+                              <li>Microsoft Visual Studio</li>
+                              <li>JetBrains IDEs (IntelliJ)</li>
                               <li>IDA Disassembler</li>
                               <li>Hopper</li>
                               <li>VCS (git)</li>
@@ -109,37 +110,69 @@ class SkillsSection extends React.Component<IProps> {
                     <h3 className={classnames.textBlockHeading}>Software</h3>
                     <div>
                       <p className={classnames.textBlock}>
-                        Experience with working with <span className="bold">Windows</span>, <span
-                        className="bold">Linux</span>,
-                        and <span className="bold">MacOS</span>. But I do prefer working on an unix based OS.
+                        Experience with:
                       </p>
-
-                      <p className={classnames.textBlock}>
-                        Experience with cross-platform development targetting <span className="bold">Web</span>, <span
-                        className="bold">Windows</span>, <span className="bold">MacOS</span>, <span
-                        className="bold">iOS</span>, <span className="bold">Android</span>, and <span
-                        className="bold">Embedded Systems</span>.
-                      </p>
-
-                      <p className={classnames.textBlock}>
-                        Experience with good software architecture design principles / orchestration such as <span
-                        className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span
-                        className="bold">Containerization</span>.
-                      </p>
-
-                      <p className={classnames.textBlock}>
-                        Experience with Continious Integration (CI) / Continious Delivery (CD) services such as <span
-                        className="bold">Travis CI</span>, and <span className="bold">Circle CI</span>.
-                      </p>
-                    </div>
-
-                    <h3 className={classnames.textBlockHeading}>Teamwork</h3>
-                    <div>
-                      <p className={classnames.textBlock}>
-                        Experience working as a team using methodologies such as <span
-                        className="bold">Agile (Scrum)</span>,
-                        and <span className="bold">Waterfall</span>.
-                      </p>
+                      <div className="center-inside">
+                        <ul>
+                          <li>
+                            <p>
+                              Operating systems such as <span className="bold">Windows</span>, <span
+                              className="bold">Linux</span>,
+                              and <span className="bold">MacOS</span>. I'm rocking a MacBook Pro though!
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Cross-platform development targetting <span className="bold">Web</span>, <span
+                              className="bold">Windows</span>, <span className="bold">MacOS</span>, <span
+                              className="bold">iOS</span>, <span className="bold">Android</span>, and <span
+                              className="bold">Embedded Systems</span>.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Architecture design principles / orchestration such as <span
+                              className="bold">SOLID</span>, <span className="bold">Microservices</span>, and <span
+                              className="bold">Containerization</span>.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Design patterns such as <span className="bold">Singleton</span>, <span className="bold">Factory</span>, <span className="bold">Observer</span> and many others.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Architecture implementations such as <span
+                              className="bold">REST</span> and <span className="bold">SOAP</span>.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              CI / CD services such as <span
+                              className="bold">Travis CI</span>, and <span className="bold">Circle CI</span>.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Development practices such as <span
+                              className="bold">TDD</span>, <span className="bold">BDD</span>, and <span className="bold">DDD</span>.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Security vunerabilities such as <span className="bold">SQL Injection</span> and <span className="bold">XSS</span>.
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Teamwork / SDLC using methodologies such as <span
+                              className="bold">Agile (Scrum/Kanban)</span>,
+                              and <span className="bold">Waterfall</span>.
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
 
                     <h3 className={classnames.textBlockHeading}>Future Goals</h3>

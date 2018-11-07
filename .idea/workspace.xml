@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +20,17 @@
     <session id="-298369455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="6" />
+          <entry key="TypeScriptServerServiceImpl" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,10 +38,10 @@
           <entry key="css" value="3" />
           <entry key="html" value="2" />
           <entry key="json" value="1" />
-          <entry key="scss" value="91" />
+          <entry key="scss" value="93" />
           <entry key="svg" value="2" />
           <entry key="ts" value="2" />
-          <entry key="tsx" value="67" />
+          <entry key="tsx" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,10 +49,10 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="SCSS" value="91" />
+          <entry key="SCSS" value="93" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="2" />
-          <entry key="TypeScript JSX" value="67" />
+          <entry key="TypeScript JSX" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,9 +60,9 @@
           <entry key="css" value="42" />
           <entry key="html" value="179" />
           <entry key="json" value="48" />
-          <entry key="scss" value="6118" />
+          <entry key="scss" value="6280" />
           <entry key="svg" value="1" />
-          <entry key="tsx" value="11071" />
+          <entry key="tsx" value="12359" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -66,20 +70,38 @@
           <entry key="CSS" value="42" />
           <entry key="HTML" value="179" />
           <entry key="JSON" value="48" />
-          <entry key="SCSS" value="6118" />
+          <entry key="SCSS" value="6280" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript JSX" value="11071" />
+          <entry key="TypeScript JSX" value="12359" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+            <state relative-caret-position="304">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="164" column="105" selection-start-line="164" selection-start-column="105" selection-end-line="164" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -122,18 +144,18 @@
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/MapComponent.tsx" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" />
       </list>
     </option>
   </component>
@@ -153,10 +175,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="width" value="2304" />
+    <option name="height" value="1273" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -252,7 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Ho&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;Nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBarMobile.scss&#10;na&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.scss&#10;nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;Foot&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;Footer&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;style.&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/node_modules/@fortawesome/fontawesome-svg-core/styles.css&#10;Pro&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Proj&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Con&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skil&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.tsx&#10;Co&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skill&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;index&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/public/index.html&#10;Contac&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Sk&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Home&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.tsx&#10;Ski&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;homeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;inde&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;HomeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss" />
+    <property name="SearchEverywhereHistoryKey" value="ind&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;Skil&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Ho&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;Nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBarMobile.scss&#10;na&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.scss&#10;nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;Foot&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;Footer&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;style.&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/node_modules/@fortawesome/fontawesome-svg-core/styles.css&#10;Pro&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Proj&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Con&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Co&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skill&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;index&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/public/index.html&#10;Contac&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Sk&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Home&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.tsx&#10;Ski&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;homeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;inde&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;HomeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -327,18 +349,19 @@
       <workItem from="1541280218199" duration="7256000" />
       <workItem from="1541366564893" duration="5000" />
       <workItem from="1541539754529" duration="4879000" />
-      <workItem from="1541548722849" duration="771000" />
+      <workItem from="1541548722849" duration="920000" />
+      <workItem from="1541615452089" duration="3000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41138000" />
+    <option name="totallyTimeSpent" value="44287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="2304" height="1273" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18022905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18002628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -353,7 +376,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25882354" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25825572" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,20 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -489,13 +498,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-svg-core/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,8 +550,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="304">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="164" column="105" selection-start-line="164" selection-start-column="105" selection-end-line="164" selection-end-column="105" />
         </state>
       </provider>
     </entry>

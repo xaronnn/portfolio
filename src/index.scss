@@ -41,6 +41,12 @@ a {
   text-align: center;
 }
 
+.center-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .padding-20 {
   padding: 20px;
 }
