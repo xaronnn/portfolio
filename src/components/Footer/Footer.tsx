@@ -8,7 +8,13 @@ class Footer extends React.Component<IProps> {
     return (
       <footer className={classnames.root}>
         <div className={classnames.content}>
-          <p>Im a footer</p>
+          <p>
+            Portfolio website was crafted from scratch, source can be found on&nbsp;
+            <a href="https://github.com/elertan/portfolio">
+              GitHub
+            </a>
+            .
+          </p>
         </div>
       </footer>
     );
