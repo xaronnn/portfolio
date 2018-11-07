@@ -6,6 +6,57 @@ import Waypoint from "react-waypoint";
 
 const classnames = require('./SkillsSection.scss');
 
+interface ITextIconItem {
+  title: string;
+  imageSource: string;
+}
+
+const csharpImg = require('./languages/csharp.png');
+const javascriptImg = require('./languages/javascript.png');
+const typescriptImg = require('./languages/typescript.png');
+const html5Img = require('./languages/html5.png');
+const css3Img = require('./languages/css3.png');
+const sassImg = require('./languages/sass.png');
+const mysqlImg = require('./languages/mysql.png');
+const mssqlImg = require('./languages/mssql.png');
+const postgresImg = require('./languages/postgres.png');
+const pythonImg = require('./languages/python.png');
+const rustImg = require('./languages/rust.png');
+const dartImg = require('./languages/dart.png');
+const luaImg = require('./languages/lua.png');
+const phpImg = require('./languages/php.png');
+const javaImg = require('./languages/java.png');
+const cImg = require('./languages/c.png');
+const cppImg = require('./languages/cpp.png');
+const swiftImg = require('./languages/swift.png');
+const asmImg = require('./languages/asm.png');
+
+const languages: ITextIconItem[] = [
+  { title: "C#", imageSource: csharpImg },
+  { title: "Javascript", imageSource: javascriptImg },
+  { title: "Typescript", imageSource: typescriptImg },
+  { title: "HTML5", imageSource: html5Img },
+  { title: "CSS3", imageSource: css3Img },
+  { title: "SASS", imageSource: sassImg },
+  { title: "MySQL", imageSource: mysqlImg },
+  { title: "MSSQL", imageSource: mssqlImg },
+  { title: "Postgres", imageSource: postgresImg },
+  { title: "Python", imageSource: pythonImg },
+  { title: "Rust", imageSource: rustImg },
+  { title: "Dart", imageSource: dartImg },
+  { title: "Lua", imageSource: luaImg },
+  { title: "PHP", imageSource: phpImg },
+  { title: "Java", imageSource: javaImg },
+  { title: "C", imageSource: cImg },
+  { title: "C++", imageSource: cppImg },
+  { title: "Swift", imageSource: swiftImg },
+  { title: "ASM", imageSource: asmImg },
+];
+
+const technologies: ITextIconItem[] = [
+
+];
+
 interface IProps {
 }
 
@@ -23,30 +74,20 @@ class SkillsSection extends React.Component<IProps> {
                         <h1 className={classnames.title}>Skills</h1>
                       </div>
 
+                      <h2 className="text-center">Languages</h2>
                       <div className={classnames.grid}>
-                        <div className={classnames.gridItem}>
-                          <h4>Languages</h4>
-                          <div className={classnames.gridItemList}>
-                            <ul>
-                              <li>C#</li>
-                              <li>Javascript</li>
-                              <li>Typescript</li>
-                              <li>HTML(5)</li>
-                              <li>CSS(3) (SASS)</li>
-                              <li>SQL (MSSQL, MySQL, Postgres)</li>
-                              <li>Python</li>
-                              <li>Rust</li>
-                              <li>Dart</li>
-                              <li>Lua</li>
-                              <li>PHP</li>
-                              <li>Java</li>
-                              <li>C / C++</li>
-                              <li>Swift</li>
-                              <li>ASM (x86 and x86_64)</li>
-                            </ul>
+                        {languages.map((language, i) => (
+                          <div className={classnames.iconGridItem} key={i}>
+                            <img
+                              className={classnames.iconGridItemIcon}
+                              src={language.imageSource}
+                            />
+                            <p className={classnames.iconGridItemTitle}>{language.title}</p>
                           </div>
-                        </div>
+                        ))}
+                      </div>
 
+                      <div className={classnames.grid}>
                         <div className={classnames.gridItem}>
                           <h4>Technology Stack</h4>
                           <div className={classnames.gridItemList}>
@@ -116,14 +157,14 @@ class SkillsSection extends React.Component<IProps> {
                         <ul>
                           <li>
                             <p>
-                              Operating systems such as <span className="bold">Windows</span>, <span
+                              Major operating systems: <span className="bold">Windows</span>, <span
                               className="bold">Linux</span>,
                               and <span className="bold">MacOS</span>. I'm rocking a MacBook Pro though!
                             </p>
                           </li>
                           <li>
                             <p>
-                              Cross-platform development targetting <span className="bold">Web</span>, <span
+                              Cross-platform development targeting <span className="bold">Web</span>, <span
                               className="bold">Windows</span>, <span className="bold">MacOS</span>, <span
                               className="bold">iOS</span>, <span className="bold">Android</span>, and <span
                               className="bold">Embedded Systems</span>.
@@ -138,19 +179,19 @@ class SkillsSection extends React.Component<IProps> {
                           </li>
                           <li>
                             <p>
-                              Design patterns such as <span className="bold">Singleton</span>, <span className="bold">Factory</span>, <span className="bold">Observer</span> and many others.
+                              Design patterns such as <span className="bold">Singleton</span>, <span className="bold">Factory</span>, and <span className="bold">Observer</span>.
                             </p>
                           </li>
                           <li>
                             <p>
-                              Architecture implementations such as <span
-                              className="bold">REST</span> and <span className="bold">SOAP</span>.
+                              Architecture styles such as <span
+                              className="bold">REST</span>, <span className="bold">SOAP</span>, <span className="bold">MVC</span>, and <span className="bold">MVVM</span>.
                             </p>
                           </li>
                           <li>
                             <p>
                               CI / CD services such as <span
-                              className="bold">Travis CI</span>, and <span className="bold">Circle CI</span>.
+                              className="bold">Travis CI</span> and <span className="bold">Circle CI</span>.
                             </p>
                           </li>
                           <li>
@@ -167,8 +208,7 @@ class SkillsSection extends React.Component<IProps> {
                           <li>
                             <p>
                               Teamwork / SDLC using methodologies such as <span
-                              className="bold">Agile (Scrum/Kanban)</span>,
-                              and <span className="bold">Waterfall</span>.
+                              className="bold">Agile (Scrum/Kanban)</span> and <span className="bold">Waterfall</span>.
                             </p>
                           </li>
                         </ul>

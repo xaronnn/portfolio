@@ -1,3 +1,5 @@
+@import "../../../index";
+
 :local {
   .root {
     padding-top: 75px;
@@ -11,7 +13,7 @@
 
   .title {
     font-size: 36px;
-    text-align: center;
+    //text-align: center;
   }
 
   .grid {
@@ -27,10 +29,26 @@
     flex: 1;
     min-width: 250px;
     margin: 20px;
+    //background-color: rgba(20, 20, 20, 0.5);
+    //color: $white-text-color;
+  }
+
+  .iconGridItem {
+    margin: 20px;
+  }
+
+  .iconGridItemIcon {
+    width: 75px;
+    height: 75px;
+  }
+
+  .iconGridItemTitle {
+    text-align: center;
   }
 
   .gridItem > h4 {
     text-align: center;
+    font-size: 21px;
   }
 
   .gridItemList {

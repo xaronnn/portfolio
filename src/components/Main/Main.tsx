@@ -3,6 +3,7 @@ import ProjectsSection from "./ProjectsSection/ProjectsSection";
 import HomeSection from "./HomeSection/HomeSection";
 import SkillsSection from "./SkillsSection/SkillsSection";
 import ContactSection from "./ContactSection/ContactSection";
+import PersonalitySection from "./PersonalitySection/PersonalitySection";
 const classnames = require('./Main.scss');
 
 interface IProps {}
@@ -16,6 +17,7 @@ class Main extends React.Component<IProps, IState> {
       <div className={classnames.root}>
         <HomeSection/>
         <SkillsSection/>
+        <PersonalitySection/>
         <ProjectsSection/>
         <ContactSection/>
       </div>

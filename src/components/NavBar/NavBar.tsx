@@ -24,8 +24,9 @@ interface INavItem {
 const navItems: INavItem[] = [
   {content: 'Home', routeName: RouteName.Home},
   {content: 'Skills', routeName: RouteName.Skills},
+  {content: 'Personality', routeName: RouteName.Personality},
   {content: 'Projects', routeName: RouteName.Projects},
-  {content: 'Contact', routeName: RouteName.Contact}
+  {content: 'Contact', routeName: RouteName.Contact},
 ];
 
 const switchWidth = 768;
