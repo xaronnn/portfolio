@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +34,7 @@
           <entry key="css" value="3" />
           <entry key="html" value="2" />
           <entry key="json" value="1" />
-          <entry key="scss" value="88" />
+          <entry key="scss" value="90" />
           <entry key="svg" value="2" />
           <entry key="ts" value="2" />
           <entry key="tsx" value="67" />
@@ -51,7 +45,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="SCSS" value="88" />
+          <entry key="SCSS" value="90" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="2" />
           <entry key="TypeScript JSX" value="67" />
@@ -62,7 +56,7 @@
           <entry key="css" value="42" />
           <entry key="html" value="179" />
           <entry key="json" value="48" />
-          <entry key="scss" value="5966" />
+          <entry key="scss" value="6080" />
           <entry key="svg" value="1" />
           <entry key="tsx" value="11071" />
         </counts>
@@ -72,7 +66,7 @@
           <entry key="CSS" value="42" />
           <entry key="HTML" value="179" />
           <entry key="JSON" value="48" />
-          <entry key="SCSS" value="5966" />
+          <entry key="SCSS" value="6080" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript JSX" value="11071" />
         </counts>
@@ -90,11 +84,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="114">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -128,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/components/layout/Container/Container.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/Main.tsx" />
         <option value="$PROJECT_DIR$/src/components/layout/Container/Container.scss" />
-        <option value="$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss" />
         <option value="$PROJECT_DIR$/src/context/NavigationContext.ts" />
         <option value="$PROJECT_DIR$/src/context/NavigationContext.tsx" />
         <option value="$PROJECT_DIR$/src/components/App.tsx" />
@@ -138,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/MapComponent.tsx" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.tsx" />
@@ -148,7 +158,9 @@
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" />
+        <option value="$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss" />
       </list>
     </option>
   </component>
@@ -267,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="na&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.scss&#10;nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;Foot&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;Footer&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;style.&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/node_modules/@fortawesome/fontawesome-svg-core/styles.css&#10;Pro&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Proj&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Con&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skil&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.tsx&#10;Co&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skill&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;index&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/public/index.html&#10;Contac&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Sk&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Home&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.tsx&#10;Nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;Ski&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;homeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;inde&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;HomeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss" />
+    <property name="SearchEverywhereHistoryKey" value="Nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBarMobile.scss&#10;na&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.scss&#10;nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;Foot&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;Footer&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;style.&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/node_modules/@fortawesome/fontawesome-svg-core/styles.css&#10;Pro&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Proj&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Con&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skil&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.tsx&#10;Co&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Skill&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;index&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/public/index.html&#10;Contac&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Sk&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Home&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.tsx&#10;Ski&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;homeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;inde&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;HomeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -342,12 +354,12 @@
       <workItem from="1541280218199" duration="7256000" />
       <workItem from="1541366564893" duration="5000" />
       <workItem from="1541539754529" duration="4879000" />
-      <workItem from="1541548722849" duration="254000" />
+      <workItem from="1541548722849" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40621000" />
+    <option name="totallyTimeSpent" value="40909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -432,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -478,13 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
@@ -564,10 +562,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="114">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBarMobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>

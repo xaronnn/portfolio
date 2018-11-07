@@ -5,10 +5,12 @@
     position: sticky;
     top: 0;
     z-index: 1337;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(20, 20, 20, 0.9); //rgba(255, 255, 255, 0.95);
+    margin-bottom: -62px;
   }
 
   .menuIcon {
+    color: $white-text-color;
     margin: 15px;
     margin-left: 25px;
   }
@@ -20,7 +22,7 @@
   .menuContainer {
     position: sticky;
     top: 62px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(20, 20, 20, 0.9); //rgba(255, 255, 255, 0.95);
     z-index: 1338;
     margin-bottom: -134px;
   }
