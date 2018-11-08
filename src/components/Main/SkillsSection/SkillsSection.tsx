@@ -53,8 +53,72 @@ const languages: ITextIconItem[] = [
   { title: "ASM", imageSource: asmImg },
 ];
 
-const technologies: ITextIconItem[] = [
+const nodejsImg = require('./technologies/nodejs.png');
+const graphqlImg = require('./technologies/graphql.png');
+const elastichsearchImg = require('./technologies/elasticsearch.png');
+const dotnetcoreImg = require('./technologies/dotnetcore.png');
+const dotnetframeworkImg = require('./technologies/dotnetframework.png');
+const monoImg = require('./technologies/mono.png');
+const nginxImg = require('./technologies/nginx.png');
+const dockerImg = require('./technologies/docker.png');
 
+const technologies: ITextIconItem[] = [
+  { title: "NodeJS", imageSource: nodejsImg },
+  { title: "GraphQL", imageSource: graphqlImg },
+  { title: "ElasticSearch", imageSource: elastichsearchImg },
+  { title: ".NET Core", imageSource: dotnetcoreImg },
+  { title: ".NET Framework", imageSource: dotnetframeworkImg },
+  { title: "Mono", imageSource: monoImg },
+  { title: "Nginx", imageSource: nginxImg },
+  { title: "Docker", imageSource: dockerImg },
+];
+
+const reactjsImg = require('./frameworks-libs/reactjs.png');
+const reactnativeImg = require('./frameworks-libs/reactnative.png');
+const reduxImg = require('./frameworks-libs/redux.png');
+const formikImg = require('./frameworks-libs/formik.jpg');
+const materialUiImg = require('./frameworks-libs/material-ui.svg');
+const semanticUiImg = require('./frameworks-libs/semantic-ui.png');
+const apolloImg = require('./frameworks-libs/apollo.png');
+const wpfImg = require('./frameworks-libs/wpf.png');
+const uwpImg = require('./frameworks-libs/uwp.png');
+const xamarinImg = require('./frameworks-libs/xamarin.png');
+const xamarinFormsImg = require('./frameworks-libs/xamarin-forms.png');
+const ffimageloadingImg = require('./frameworks-libs/ffimageloading.png');
+const flutterImg = require('./frameworks-libs/flutter.png');
+
+const frameworksLibs: ITextIconItem[] = [
+  { title: "ReactJS", imageSource: reactjsImg },
+  { title: "React Native", imageSource: reactnativeImg },
+  { title: "Redux", imageSource: reduxImg },
+  { title: "Formik", imageSource: formikImg },
+  { title: "Material UI", imageSource: materialUiImg },
+  { title: "Semantic UI", imageSource: semanticUiImg },
+  { title: "Apollo", imageSource: apolloImg },
+  { title: "WPF", imageSource: wpfImg },
+  { title: "UWP", imageSource: uwpImg },
+  { title: "Xamarin", imageSource: xamarinImg },
+  { title: "Xamarin.Forms", imageSource: xamarinFormsImg },
+  { title: "FFImageLoading", imageSource: ffimageloadingImg },
+  { title: "Flutter", imageSource: flutterImg },
+];
+
+const photoshopImg = require('./tools/photoshop.png');
+const officeImg = require('./tools/office.png');
+const visualstudioImg = require('./tools/visualstudio.png');
+const jetbrainsImg = require('./tools/jetbrains.png');
+const idaImg = require('./tools/ida.png');
+const hopperImg = require('./tools/hopper.png');
+const gitImg = require('./tools/git.png');
+
+const tools: ITextIconItem[] = [
+  { title: "Photoshop", imageSource: photoshopImg },
+  { title: "Microsoft Office", imageSource: officeImg },
+  { title: "Visual Studio", imageSource: visualstudioImg },
+  { title: "Jetbrains IDE", imageSource: jetbrainsImg },
+  { title: "IDA", imageSource: idaImg },
+  { title: "Hopper", imageSource: hopperImg },
+  { title: "GIT", imageSource: gitImg },
 ];
 
 interface IProps {
@@ -70,9 +134,7 @@ class SkillsSection extends React.Component<IProps> {
                 <Container>
                   <>
                     <div className={classnames.container}>
-                      <div>
-                        <h1 className={classnames.title}>Skills</h1>
-                      </div>
+                      <h1 className={classnames.title}>Skills.</h1>
 
                       <h2 className="text-center">Languages</h2>
                       <div className={classnames.grid}>
@@ -87,68 +149,47 @@ class SkillsSection extends React.Component<IProps> {
                         ))}
                       </div>
 
+                      <h2 className="text-center">Technologies</h2>
                       <div className={classnames.grid}>
-                        <div className={classnames.gridItem}>
-                          <h4>Technology Stack</h4>
-                          <div className={classnames.gridItemList}>
-                            <ul>
-                              <li>Node</li>
-                              <li>ElasticSearch</li>
-                              <li>GraphQL</li>
-                              <li>.NET Core</li>
-                              <li>.NET Framework</li>
-                              <li>Mono</li>
-                              <li>Nginx</li>
-                              <li>Docker</li>
-                            </ul>
+                        {technologies.map((technology, i) => (
+                          <div className={classnames.iconGridItem} key={i}>
+                            <img
+                              className={classnames.iconGridItemIcon}
+                              src={technology.imageSource}
+                            />
+                            <p className={classnames.iconGridItemTitle}>{technology.title}</p>
                           </div>
-                        </div>
+                        ))}
+                      </div>
 
-                        <div className={classnames.gridItem}>
-                          <h4>Frameworks/Libraries</h4>
-                          <div className={classnames.gridItemList}>
-                            <ul>
-                              <li>
-                                React (JS / Native)
-                                <ul>
-                                  <li>Redux</li>
-                                  <li>Formik</li>
-                                  <li>Material UI</li>
-                                  <li>Semantic UI</li>
-                                  <li>Apollo</li>
-                                </ul>
-                              </li>
-                              <li>WPF / UWP</li>
-                              <li>
-                                Xamarin(.Forms)
-                                <ul>
-                                  <li>FFImageLoading</li>
-                                </ul>
-                              </li>
-                              <li>Flutter</li>
-                            </ul>
+                      <h2 className="text-center">Frameworks / Libraries</h2>
+                      <div className={classnames.grid}>
+                        {frameworksLibs.map((frameworkLib, i) => (
+                          <div className={classnames.iconGridItem} key={i}>
+                            <img
+                              className={classnames.iconGridItemIcon}
+                              src={frameworkLib.imageSource}
+                            />
+                            <p className={classnames.iconGridItemTitle}>{frameworkLib.title}</p>
                           </div>
-                        </div>
+                        ))}
+                      </div>
 
-                        <div className={classnames.gridItem}>
-                          <h4>Tools</h4>
-                          <div className={classnames.gridItemList}>
-                            <ul>
-                              <li>Photoshop</li>
-                              <li>Microsoft Office</li>
-                              <li>Microsoft Visual Studio</li>
-                              <li>JetBrains IDEs (IntelliJ)</li>
-                              <li>IDA Disassembler</li>
-                              <li>Hopper</li>
-                              <li>VCS (git)</li>
-                            </ul>
+                      <h2 className="text-center">Tools</h2>
+                      <div className={classnames.grid}>
+                        {tools.map((tool, i) => (
+                          <div className={classnames.iconGridItem} key={i}>
+                            <img
+                              className={classnames.iconGridItemIcon}
+                              src={tool.imageSource}
+                            />
+                            <p className={classnames.iconGridItemTitle}>{tool.title}</p>
                           </div>
-                        </div>
+                        ))}
                       </div>
 
                     </div>
 
-                    <h3 className={classnames.textBlockHeading}>Software</h3>
                     <div>
                       <p className={classnames.textBlock}>
                         Experience with:
@@ -215,19 +256,19 @@ class SkillsSection extends React.Component<IProps> {
                       </div>
                     </div>
 
-                    <h3 className={classnames.textBlockHeading}>Future Goals</h3>
-                    <div>
-                      <p className={classnames.textBlock}>
-                        I'm really excited about <span className="bold">Machine Learning</span>, because of the new
-                        possibilities it unlocks for the application of software on more abstract use cases.
-                      </p>
+                    {/*<h3 className={classnames.textBlock}>Future interests</h3>*/}
+                    {/*<div>*/}
+                      {/*<p className={classnames.textBlock}>*/}
+                        {/*I'm really excited about <span className="bold">Machine Learning</span>, because of the new*/}
+                        {/*possibilities it unlocks for the application of software on more abstract use cases.*/}
+                      {/*</p>*/}
 
-                      <p className={classnames.textBlock}>
-                        I'm currently researching / studying one of the more popular libaries from Google, <span
-                        className="bold">Tensorflow</span>, and I'd love to develop something new using this
-                        technology.
-                      </p>
-                    </div>
+                      {/*<p className={classnames.textBlock}>*/}
+                        {/*I'm currently researching / studying one of the more popular libaries from Google, <span*/}
+                        {/*className="bold">Tensorflow</span>, and I'd love to develop something new using this*/}
+                        {/*technology.*/}
+                      {/*</p>*/}
+                    {/*</div>*/}
                   </>
                 </Container>
               </section>
