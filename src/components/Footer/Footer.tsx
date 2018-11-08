@@ -22,6 +22,9 @@ class Footer extends React.Component<IProps> {
             </a>
             !
           </p>
+          <p className={classnames.small}>
+            Copyright &copy; 2018 DennisKievits.com. All rights reserved.
+          </p>
         </div>
       </footer>
     );
