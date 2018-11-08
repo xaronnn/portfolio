@@ -7,7 +7,12 @@
   .content {
     width: 100%;
     max-width: 1380px;
-    margin-left: 50px;
-    margin-right: 50px;
+  }
+
+  @media (min-width: 1430px) {
+    .content {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
   }
 }

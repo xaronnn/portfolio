@@ -134,7 +134,7 @@ class SkillsSection extends React.Component<IProps> {
                 <Container>
                   <>
                     <div className={classnames.container}>
-                      <h1 className={classnames.title}>Skills.</h1>
+                      <h1 className={classnames.title}>Skills</h1>
 
                       <h2 className="text-center">Languages</h2>
                       <div className={classnames.grid}>
