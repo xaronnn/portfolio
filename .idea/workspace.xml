@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,18 +17,19 @@
     <session id="-298369455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="8" />
+          <entry key="TypeScriptServerServiceImpl" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,7 +40,7 @@
           <entry key="scss" value="118" />
           <entry key="svg" value="2" />
           <entry key="ts" value="2" />
-          <entry key="tsx" value="96" />
+          <entry key="tsx" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,7 +51,7 @@
           <entry key="SCSS" value="118" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="2" />
-          <entry key="TypeScript JSX" value="96" />
+          <entry key="TypeScript JSX" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -61,7 +61,7 @@
           <entry key="json" value="48" />
           <entry key="scss" value="7260" />
           <entry key="svg" value="1" />
-          <entry key="tsx" value="17708" />
+          <entry key="tsx" value="17710" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -71,27 +71,18 @@
           <entry key="JSON" value="48" />
           <entry key="SCSS" value="7260" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript JSX" value="17708" />
+          <entry key="TypeScript JSX" value="17710" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="456">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -137,7 +128,6 @@
         <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" />
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/InDepthSection/InDepthSection.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/InDepthSection/InDepthSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/Main.tsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" />
@@ -150,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" />
       </list>
     </option>
   </component>
@@ -169,7 +160,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="2304" />
     <option name="height" value="1273" />
@@ -226,32 +217,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="PersonalitySection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillsSection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillsSection" type="462c0819:PsiDirectoryNode" />
-              <item name="frameworks-libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillsSection" type="462c0819:PsiDirectoryNode" />
-              <item name="technologies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -346,11 +311,12 @@
       <workItem from="1541548722849" duration="920000" />
       <workItem from="1541615452089" duration="9215000" />
       <workItem from="1541708889973" duration="7068000" />
+      <workItem from="1541852228244" duration="1232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57570000" />
+    <option name="totallyTimeSpent" value="58802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2304" height="1273" extended-state="6" />
@@ -488,13 +454,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/InDepthSection/InDepthSection.scss" />
-    <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/InDepthSection/InDepthSection.tsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Main/Main.tsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -531,9 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="154" column="74" selection-start-line="154" selection-start-column="74" selection-end-line="154" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,9 +532,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -589,10 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="456">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>

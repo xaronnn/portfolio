@@ -39,6 +39,6 @@ class PersonalitySection extends React.Component<IProps, IState> {
   private handleEnterWaypoint = (navigation: NavigationContainer) => () => {
     navigation.setRouteName(RouteName.Personality);
   };
-};
+}
 
 export default PersonalitySection;
