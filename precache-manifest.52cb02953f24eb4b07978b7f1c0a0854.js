@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bf99b61d6dc523745ba299caf02b3a1e",
-    "url": "/static/media/asm.bf99b61d.png"
+    "revision": "614e81bd92afc62be8127beac5e1b9af",
+    "url": "/static/media/cpp.614e81bd.png"
   },
   {
-    "revision": "6775db6af2e2cf79e737",
-    "url": "/static/css/main.8be8cef3.chunk.css"
+    "revision": "3dceac08871a3eefe92d",
+    "url": "/static/css/main.c1b0e291.chunk.css"
   },
   {
     "revision": "f75f2fd16b28c31e0b77",
@@ -16,8 +16,28 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
+    "revision": "df87f3435ece235cbf4405f7004c4739",
+    "url": "/static/media/explore-page.df87f343.png"
+  },
+  {
+    "revision": "7a2323079fe1ba232f61df0a8f50c8c3",
+    "url": "/static/media/image.7a232307.png"
+  },
+  {
     "revision": "891b038756953a8880b98701859dd018",
     "url": "/static/media/1.891b0387.jpg"
+  },
+  {
+    "revision": "2508268e20c84f2eecc74643867fda90",
+    "url": "/static/media/player.2508268e.jpg"
+  },
+  {
+    "revision": "9f9cdf2a1948d6636df48c50c0344c6a",
+    "url": "/static/media/image.9f9cdf2a.png"
+  },
+  {
+    "revision": "2ea4b8b3f02d8b19d6d0d0510bebcce6",
+    "url": "/static/media/client.2ea4b8b3.png"
   },
   {
     "revision": "2879accc54c1b22f91f97d7d650ae43f",
@@ -76,16 +96,16 @@ self.__precacheManifest = [
     "url": "/static/media/c.5fcc7f0f.png"
   },
   {
-    "revision": "614e81bd92afc62be8127beac5e1b9af",
-    "url": "/static/media/cpp.614e81bd.png"
+    "revision": "3dceac08871a3eefe92d",
+    "url": "/static/js/main.3dceac08.chunk.js"
   },
   {
     "revision": "7aa4103a8f6eb0040d3c2d665987c864",
     "url": "/static/media/swift.7aa4103a.png"
   },
   {
-    "revision": "6775db6af2e2cf79e737",
-    "url": "/static/js/main.6775db6a.chunk.js"
+    "revision": "bf99b61d6dc523745ba299caf02b3a1e",
+    "url": "/static/media/asm.bf99b61d.png"
   },
   {
     "revision": "6dcf699938b2291d1634f91adb0dded1",
@@ -168,7 +188,7 @@ self.__precacheManifest = [
     "url": "/static/media/git.f21a84fd.png"
   },
   {
-    "revision": "66fb937067cd52fcf5af53776e9315d3",
+    "revision": "d46f0f6ede00605e0a6690ce54385ea3",
     "url": "/index.html"
   }
 ];
