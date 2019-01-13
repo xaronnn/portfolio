@@ -10,11 +10,20 @@
 
   .container {
     width: 100%;
-    min-height: 110vh;
   }
 
   .title {
     font-size: 36px;
     text-align: center;
+  }
+
+  .personalityContainer {
+    margin: 20px;
+  }
+
+  .personalityHeadText {
+    margin-right: 15px;
+    font-size: 21px;
+    font-weight: bold;
   }
 }
