@@ -15,7 +15,7 @@ interface IState {
 const items = [
   {
     head: "Devoted",
-    detail: "I am a very devoted type of person when it comes to computer science, all of it just really interests me and keeps me thinking all day long about it."
+    detail: "I am a very devoted type of person when it comes to computer science, all of it just really interests me and keeps me thinking."
   },
   {
     head: "Organized",

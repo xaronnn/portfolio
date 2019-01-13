@@ -17,47 +17,61 @@
     margin-bottom: 50px;
   }
 
-  .grid {
+  .projectsRow {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-direction: row;
+    height: 500px;
+    //margin-top: 5px;
+    //margin-bottom: 5px;
   }
 
-  .gridItem {
-    min-width: 600px;
-    width: 100%;
-    height: 800px;
-    background: white;
-    margin: 25px;
+  .project {
+    //margin-left: 5px;
+    //margin-right: 5px;
+    border: 1px solid white;
   }
 
-  .gridItemDarken {
+  .projectContent {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-
-  .gridItemContainer {
     position: relative;
-    top: -100%;
-    padding: 20px;
-    padding-left: 35px;
-    color: $white-text-color;
+    bottom: 200%;
+    padding: 35px;
+    color: #FFFFFF;
   }
 
-  @media (max-width: 640px) {
-    .gridItem {
-      min-width: 400px;
-      width: 100%;
-      height: 400px;
-    }
+  .projectTechnologies {
+    position: relative;
+    width: 100%;
+    bottom: 223%;
+    left: 25px;
+    color: #afafaf;
+    font-size: 14px;
   }
 
-  @media (max-width: 400px) {
-    .gridItem {
-      min-width: 300px;
-      width: 100%;
-      height: 300px;
-    }
+  .projectTitle {
+    font-size: 28px;
+  }
+
+  .projectDescription {
+    color: #d7d7d7;
+    margin-right: 45px;
+  }
+
+  .projectImgContainer {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projectDarkenLayer {
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 100%;
   }
 }
