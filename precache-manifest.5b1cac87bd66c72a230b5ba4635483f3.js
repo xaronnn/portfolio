@@ -188,7 +188,7 @@ self.__precacheManifest = [
     "url": "/static/media/git.f21a84fd.png"
   },
   {
-    "revision": "d46f0f6ede00605e0a6690ce54385ea3",
+    "revision": "ffce029169a696fd60fab2fe30508ed8",
     "url": "/index.html"
   }
 ];
