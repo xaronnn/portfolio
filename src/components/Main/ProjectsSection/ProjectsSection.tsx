@@ -120,9 +120,10 @@ class ProjectsSection extends React.Component<IProps> {
                           <div className={classnames.projectContent}>
                             <h3 className={classnames.projectTitle}>{project.project.title}</h3>
                             <p className={classnames.projectDescription}>{project.project.description}</p>
-                          </div>
-                          <div className={classnames.projectTechnologies}>
-                            Created using {project.project.technologies.join(", ")}
+                            <div className={classnames.filler} />
+                            <p className={classnames.projectTechnologies}>
+                              Created using {project.project.technologies.join(", ")}
+                            </p>
                           </div>
                         </article>
                       ))}

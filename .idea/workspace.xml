@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="132" column="45" lean-forward="true" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
+            <state relative-caret-position="319">
+              <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -30,20 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="381">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -96,12 +85,12 @@
         <option value="$PROJECT_DIR$/src/components/Main/HomeSection/HomeSection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/ContactSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ContactSection/MapComponent.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss" />
       </list>
     </option>
   </component>
@@ -269,12 +258,12 @@
       <workItem from="1547408883422" duration="7777000" />
       <workItem from="1547420214019" duration="199000" />
       <workItem from="1547428900662" duration="48000" />
-      <workItem from="1547470386304" duration="435000" />
+      <workItem from="1547470386304" duration="1016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67261000" />
+    <option name="totallyTimeSpent" value="67842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="455" y="1463" width="1680" height="1027" extended-state="6" />
@@ -287,7 +276,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3989305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -486,23 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="132" column="45" lean-forward="true" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -512,8 +484,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="527">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="122" column="60" selection-start-line="122" selection-start-column="60" selection-end-line="122" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ProjectsSection/ProjectsSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
