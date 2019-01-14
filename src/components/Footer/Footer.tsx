@@ -23,7 +23,7 @@ class Footer extends React.Component<IProps> {
             !
           </p>
           <p className={classnames.small}>
-            Copyright &copy; 2018 DennisKievits.com. All rights reserved.
+            Copyright &copy; {new Date().getFullYear()} DennisKievits.com. All rights reserved.
           </p>
         </div>
       </footer>
