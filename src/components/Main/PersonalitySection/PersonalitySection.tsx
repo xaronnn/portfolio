@@ -59,7 +59,7 @@ class PersonalitySection extends React.Component<IProps, IState> {
                       <td className={classnames.personalityHeadText}>
                         {item.head}
                       </td>
-                      <td>
+                      <td className={classnames.personalityDetailText}>
                         {item.detail}
                       </td>
                     </tr>
