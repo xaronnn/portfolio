@@ -12,6 +12,7 @@ interface IProject {
   description: string;
   imageUrl: string;
   technologies: string[];
+  githubLink?: string;
 }
 
 interface IProjectGridRowItem {
@@ -26,7 +27,8 @@ const projects: IProjectGridRowItem[][] = [
         title: "Music Webshop",
         description: "A digital music platform that offers tracks and albums",
         imageUrl: require("./project-c-webshop/explore-page.png"),
-        technologies: ["C#", ".NET Core", "GraphQL", "ReactJS", "TypeScript"]
+        technologies: ["C#", ".NET Core", "GraphQL", "ReactJS", "TypeScript"],
+        githubLink: "https://github.com/elertan/project-c-webshop"
       },
       flex: 2
     },
@@ -35,7 +37,8 @@ const projects: IProjectGridRowItem[][] = [
         title: "Amino Tools",
         description: "A mobile application that extends the functionalities of Amino, a multi community app for iOS and Android",
         imageUrl: require("./amino-tools/image.png"),
-        technologies: ["C#", "Xamarin.Forms", "FFImageLoading"]
+        technologies: ["C#", "Xamarin.Forms", "FFImageLoading"],
+        githubLink: "https://github.com/elertan/aminotools"
       },
       flex: 1
     }
@@ -55,7 +58,8 @@ const projects: IProjectGridRowItem[][] = [
         title: "AnimeViewer",
         description: "A cross platform mobile app that allows you to view animes for free without ads!",
         imageUrl: require('./animeviewer/player.jpg'),
-        technologies: ["C#", "Xamarin.Forms", "FFImageLoading"]
+        technologies: ["C#", "Xamarin.Forms", "FFImageLoading"],
+        githubLink: "https://github.com/elertan/animeviewer"
       },
       flex: 1
     },
@@ -66,7 +70,8 @@ const projects: IProjectGridRowItem[][] = [
         title: "HR Minigames",
         description: "A game full of minigames! What's not to like? Each minigame in it's own sandboxed environment.",
         imageUrl: require("./hr-minigames/image.png"),
-        technologies: ["Python", "PyGame"]
+        technologies: ["Python", "PyGame"],
+        githubLink: "https://github.com/elertan/HR-Minigames"
       },
       flex: 1
     },
@@ -75,7 +80,8 @@ const projects: IProjectGridRowItem[][] = [
         title: "League of Memories",
         description: "The client of League of Memories, a community driven version of League of Legends back in season 4.",
         imageUrl: require("./league-of-memories/client.png"),
-        technologies: ["NodeJS", "Electron", "TypeScript", "GraphQL", "Redux"]
+        technologies: ["NodeJS", "Electron", "TypeScript", "GraphQL", "Redux"],
+        githubLink: "https://github.com/elertan/Client"
       },
       flex: 2
     },
@@ -111,16 +117,21 @@ class ProjectsSection extends React.Component<IProps> {
                           }}
                         >
                           <div
-                            className={classnames.projectImgContainer}
+                            className={classnames.projectContent}
                             style={{
-                              backgroundImage: `url(${project.project.imageUrl})`
+                              backgroundImage: `linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(${project.project.imageUrl})`
                             }}
-                          />
-                          <div className={classnames.projectDarkenLayer}/>
-                          <div className={classnames.projectContent}>
+                          >
                             <h3 className={classnames.projectTitle}>{project.project.title}</h3>
                             <p className={classnames.projectDescription}>{project.project.description}</p>
                             <div className={classnames.filler} />
+                            <p className={classnames.projectSource}>
+                              {project.project.githubLink === undefined ?
+                                <span>Closed source project</span>
+                                :
+                                <a href={project.project.githubLink}>View on GitHub</a>
+                              }
+                            </p>
                             <p className={classnames.projectTechnologies}>
                               Created using {project.project.technologies.join(", ")}
                             </p>
