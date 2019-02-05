@@ -4,6 +4,8 @@
   .root {
     padding-top: 75px;
     padding-bottom: 75px;
+    background-image: linear-gradient(#1a1a1a, #5f5e5e);
+    color: white;
   }
 
   .container {
@@ -26,7 +28,7 @@
     flex-basis: 50%;
     margin-top: 50px;
     margin-bottom: 75px;
-    background-color: #f6f6f6;
+    //background-color: #f6f6f6;
     border-radius: 10px;
   }
 

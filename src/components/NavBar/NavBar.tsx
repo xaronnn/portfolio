@@ -25,6 +25,7 @@ const navItems: INavItem[] = [
   {content: 'Home', routeName: RouteName.Home},
   {content: 'Skills', routeName: RouteName.Skills},
   {content: 'Personality', routeName: RouteName.Personality},
+  {content: 'Experience', routeName: RouteName.Experience},
   {content: 'Projects', routeName: RouteName.Projects},
   {content: 'Contact', routeName: RouteName.Contact},
 ];
