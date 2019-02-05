@@ -14,7 +14,8 @@ import * as React from 'react';
 //
 // const MapComp = withScriptjs(withGoogleMap(MapCompBase));
 
-interface IProps {}
+interface IProps {
+}
 
 const MapComponent: React.SFC<IProps> = (props: IProps) => {
   return (
