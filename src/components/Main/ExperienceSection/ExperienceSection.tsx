@@ -3,12 +3,12 @@ import {Subscribe} from "unstated";
 import NavigationContainer, {RouteName} from "../../../containers/NavigationContainer";
 import Waypoint from "react-waypoint";
 import Container from "../../layout/Container/Container";
-import IWorkingExperience from "./IWorkingExperience";
-import WorkingExperience from "./WorkingExperience";
+import IExperience from "./IExperience";
+import Experience from "./Experience";
 
 const classnames = require('./ExperienceSection.scss');
 
-const workingExperiences: IWorkingExperience[] = [
+const workingExperiences: IExperience[] = [
   {
     position: "Owner & Lead Software Engineer",
     companyName: "Alavon",
@@ -86,10 +86,8 @@ const ExperienceSection: React.FunctionComponent<IProps> = (props) => {
                 <h2 className={classnames.title}>Experience</h2>
               </Waypoint>
               <div className={classnames.workingExperience}>
-                <h3>Work</h3>
-                {workingExperiences.map((we, i) => <WorkingExperience key={i} workingExperience={we}/>)}
+                {workingExperiences.map((we, i) => <Experience key={i} workingExperience={we}/>)}
               </div>
-              <h3>Education</h3>
             </div>
           </Container>
         </section>

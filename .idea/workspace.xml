@@ -3,11 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="595ccf88-de49-4a5b-a4c8-0fcbcf02233e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/IWorkingExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/IExperience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/Experience.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/alavon/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/alavon/cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/alavon/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/alavon/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/it-partner/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/it-partner/cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/it-partner/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/it-partner/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/itis/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/itis/cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/itis/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/itis/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/splash-lease/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/splash-lease/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/splash-lease/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/splash-lease/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/unique-webdesign/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/unique-webdesign/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/unique-webdesign/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ExperienceSection/companies/unique-webdesign/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/NavigationContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/NavigationContainer.tsx" afterDir="false" />
     </list>
@@ -21,76 +32,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.59437007">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
-                  <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.tsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="122" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/EducationSection/EducationSection.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/Main.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/EducationSection/EducationSection.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,17 +128,20 @@
         <option value="$PROJECT_DIR$/.dockerignore" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/src/containers/NavigationContainer.tsx" />
-        <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/Main/Main.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/PersonalitySection/PersonalitySection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/SkillsSection/SkillsSection.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/IWorkingExperience.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.tsx" />
         <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss" />
+        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/Experience.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/NavigationContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/Main.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/EducationSection/EducationSection.tsx" />
+        <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Main/EducationSection/EducationSection.scss" />
       </list>
     </option>
   </component>
@@ -204,7 +192,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
+              <item name="EducationSection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="EducationSection" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="EducationSection" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="davinci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="EducationSection" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="hr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -213,57 +230,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-              <item name="alavon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-              <item name="it-partner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-              <item name="itis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-              <item name="splash-lease" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperienceSection" type="462c0819:PsiDirectoryNode" />
-              <item name="companies" type="462c0819:PsiDirectoryNode" />
-              <item name="unique-webdesign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -281,6 +247,13 @@
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="SkillsSection" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="NavBar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +264,7 @@
     <property name="SearchEverywhereHistoryKey" value="per&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/PersonalitySection/PersonalitySection.scss&#10;Contact&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Pers&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/PersonalitySection/PersonalitySection.scss&#10;home&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.tsx&#10;Footer&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.tsx&#10;Sk&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Skill&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;In&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/InDepthSection/InDepthSection.tsx&#10;Ski&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.tsx&#10;Pro&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Per&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/PersonalitySection/PersonalitySection.scss&#10;ind&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;Skil&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/SkillsSection/SkillsSection.scss&#10;Ho&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;na&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.scss&#10;nav&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/NavBar/NavBar.tsx&#10;Foot&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Footer/Footer.scss&#10;style.&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/node_modules/@fortawesome/fontawesome-svg-core/styles.css&#10;Proj&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ProjectsSection/ProjectsSection.scss&#10;Con&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Co&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;index&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/public/index.html&#10;Contac&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/ContactSection/ContactSection.scss&#10;Home&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.tsx&#10;homeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss&#10;inde&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/index.scss&#10;HomeS&#9;FILE&#9;file:///Users/denniskievits/dev/portfolio/src/components/Main/HomeSection/HomeSection.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549384656006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549388027338" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -378,12 +351,12 @@
       <workItem from="1547553796299" duration="1379000" />
       <workItem from="1547582566728" duration="44000" />
       <workItem from="1549369683804" duration="974000" />
-      <workItem from="1549372204370" duration="10167000" />
+      <workItem from="1549372204370" duration="12517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81434000" />
+    <option name="totallyTimeSpent" value="83784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
@@ -398,7 +371,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -408,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26264152" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26264152" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -586,24 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/NavigationContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/Main.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -632,13 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -673,44 +625,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/IWorkingExperience.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/Experience.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/Experience.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/NavigationContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/IExperience.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/Main.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        <state relative-caret-position="870">
+          <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/ExperienceSection.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="122" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/EducationSection/EducationSection.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/ExperienceSection/WorkingExperience.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/EducationSection/EducationSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>

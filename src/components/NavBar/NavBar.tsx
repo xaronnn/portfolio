@@ -26,11 +26,12 @@ const navItems: INavItem[] = [
   {content: 'Skills', routeName: RouteName.Skills},
   {content: 'Personality', routeName: RouteName.Personality},
   {content: 'Experience', routeName: RouteName.Experience},
+  {content: 'Education', routeName: RouteName.Education},
   {content: 'Projects', routeName: RouteName.Projects},
   {content: 'Contact', routeName: RouteName.Contact},
 ];
 
-const switchWidth = 768;
+const switchWidth = 925;
 
 class NavBar extends React.Component<IProps, IState> {
   public state = {

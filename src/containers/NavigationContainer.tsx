@@ -6,6 +6,7 @@ export enum RouteName {
   Skills = "SKILLS_ROUTENAME",
   Personality = "PERSONALITY_ROUTENAME",
   Experience = "EXPERIENCE_ROUTENAME",
+  Education = "EDUCATION_ROUTENAME",
   Projects = "PROJECTS_ROUTENAME",
   Contact = "CONTACT_ROUTENAME",
 }
